@@ -24,7 +24,7 @@ def get_source():
             source_results_list = get_source_response['sources']
             source_results = process_results(source_results_list)
             
-    return source_results
+    return source_results  
 
 def process_results(source_list):
     source_results = []
