@@ -23,3 +23,14 @@ def article(id):
     articles = article_source(id)
     return render_template('article.html',articles= articles,id=id )
 
+# @main.route('/categories/<cat_name>')
+# def category(cat_name):
+#     '''
+#     function to return the categories.html page and its content
+#     '''
+    
+#     title = 'news'
+    
+
+#     return render_template('categories.html',title = title )
+
