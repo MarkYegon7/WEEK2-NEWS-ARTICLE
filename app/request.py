@@ -86,4 +86,4 @@ def get_headlines():
             get_headlines_list = get_headlines_response['articles']
             
         
-    return get_headlines_list
+    return get_headlines_results
